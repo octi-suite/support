@@ -4,9 +4,16 @@
 ![Privacy](https://img.shields.io/badge/privacy-no%20external%20requests-success)
 ![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)
 
+## Support & Issue Tracking
+
+👉 **For bug reports, questions, and feature requests, please use this repository:**
+https://github.com/octi-suite/support
+
+---
+
 This repository is the **public support and issue tracker** for extensions developed by **octi suite**.
 
-Use this repository to:
+Please use this repository to:
 - report bugs
 - ask technical questions
 - request features
@@ -26,7 +33,7 @@ When opening an issue, please select the correct product in the issue form.
 
 ## Before Opening an Issue
 
-To help resolve issues quickly, please include:
+To help resolve issues efficiently, please include:
 - Joomla version
 - Extension version
 - PHP version
@@ -41,7 +48,7 @@ Incomplete issues may be marked as **needs-info**.
 
 - Do **not** post credentials, private URLs, or sensitive data.
 - No personal data is required to open an issue.
-- All octi suite extensions are designed with **privacy first** in mind.
+- octi suite extensions are designed with a **privacy-first approach**.
 
 ---
 
