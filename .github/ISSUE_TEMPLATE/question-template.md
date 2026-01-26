@@ -1,8 +1,9 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: Question template
+about: Use this template for general questions or support requests related to octi
+  suite extensions.
 title: "[Custom]"
-labels: ''
+labels: question
 assignees: od-martin
 
 ---
