@@ -7,7 +7,7 @@
 ## Support & Issue Tracking
 
 👉 **For bug reports, questions, and feature requests, please use this repository:**
-https://github.com/octi-suite/support
+https://github.com/octi-suite/support/issues
 
 ---
 
