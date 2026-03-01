@@ -1,0 +1,61 @@
+name: ❓ Question
+description: Ask a question or get support
+title: "[Question]: "
+labels: ["question"]
+assignees: ["od-martin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! Please fill out the form below.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which octi suite extension is your question about?
+      options:
+        - OD Local Fonts
+        - OD License
+        - OD Power of Attorney
+        - General question
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Please describe your question as clearly as possible.
+    validations:
+      required: true
+
+  - type: input
+    id: joomla-version
+    attributes:
+      label: Joomla Version (if relevant)
+      placeholder: "e.g. 5.2.1"
+
+  - type: input
+    id: extension-version
+    attributes:
+      label: Extension Version (if relevant)
+      placeholder: "e.g. 1.2.0"
+
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP Version (if relevant)
+      placeholder: "e.g. 8.2"
+
+  - type: input
+    id: template
+    attributes:
+      label: Template/Framework (if relevant)
+      placeholder: "e.g. Helix Ultimate"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Anything else that might help (optional).
