@@ -24,8 +24,9 @@ Please use this repository to:
 
 ## Supported Products
 
-- **OD Local Fonts** – Local font management for Joomla with zero external requests  
-- Additional octi suite extensions may be added over time
+- **OD Local Fonts** – Local font management for Joomla with zero external requests
+- **OD License** – License management extension for Joomla
+- **OD Power of Attorney** – Power of Attorney management for Joomla
 
 When opening an issue, please select the correct product in the issue form.
 
