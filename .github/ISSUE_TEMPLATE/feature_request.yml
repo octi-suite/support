@@ -1,0 +1,50 @@
+name: ✨ Feature Request
+description: Suggest an idea or improvement
+title: "[Feature]: "
+labels: ["feature"]
+assignees: ["od-martin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please fill out the form below.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which octi suite extension is this request for?
+      options:
+        - OD Local Fonts
+        - OD License
+        - OD Power of Attorney
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature or improvement you are requesting.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Why is this feature useful? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Have you considered alternative solutions or workarounds?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Anything else that helps understand the request (optional).
