@@ -55,7 +55,6 @@ Incomplete issues may be marked as **needs-info**.
 
 ## Links
 
-- Website: https://octi-suite.com  
-- Product overview: https://octi-design.at  
+- Website: https://octi-suite.com
 
 Thank you for helping improve octi suite extensions.
